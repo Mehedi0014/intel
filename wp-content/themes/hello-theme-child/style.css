@@ -1,0 +1,530 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme-child/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 2.0.0
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/* Add your custom styles here */
+/* 
+==============================================================================
+==============================================================================
+>> Global
+==============================================================================
+==============================================================================
+*/
+
+body {
+	font-family: "Titillium Web", serif !important;
+}
+
+/* 
+==============================================================================
+==============================================================================
+>> Header
+==============================================================================
+==============================================================================
+*/
+
+/* .NavBgColor {
+    background-color: #fff;
+} */
+
+.fixedElement {
+	background-color: #333333;
+	position: sticky;
+	width: 100%;
+	z-index: 999;
+	padding: 15px 0;
+}
+
+/* .fixedElementAfterScroll {
+    position: fixed;
+    top: 0px;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-animation: 0.95s ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 0.95s ease-in-out 0s normal none 1 running fadeInDown;
+    -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+} */
+
+/* #masthead {
+	border-bottom: 1px solid #ddd;
+	z-index: 9999999999999;
+	width: 100%;   
+} */
+
+/* .masthead {
+    background-color: transparent;
+} */
+
+/* .mastheadAfterScroll {
+    background-color: #000;
+}
+ */
+
+/* #logo_part img {
+	width: 150px;
+	height: 25px;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+} */
+
+
+
+/* 
+==============================================================================
+==============================================================================
+>> Footer
+==============================================================================
+==============================================================================
+*/
+
+#FooterBottomArea {
+	color: hsla(0,0%,100%,.6);
+	background: #313131;
+	background: -moz-linear-gradient(top,#555 0,#313131 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#1a1d2b),color-stop(100%,#313131));
+	background: -webkit-linear-gradient(top,#555,#313131);
+	background: -o-linear-gradient(top,#555 0,#313131 100%);
+	background: -ms-linear-gradient(top,#555 0,#313131 100%);
+	background: linear-gradient(180deg,#555,#313131);
+}
+
+/* 
+==============================================================================
+==============================================================================
+>> Homepage Engaging L&D Ecosystem
+==============================================================================
+==============================================================================
+*/
+
+/* Common part ======================================= */
+.mycoachlms {
+    margin-bottom: 10px;
+    font-size: 23px;
+    border-bottom: 2px solid #666;
+    display: inline-block;
+    margin-right: 60px;
+	padding-bottom: 3px;
+}
+.mycoachlmsp {
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.border-shape {
+    position: relative;
+    padding: 15px;
+    margin: 40px 70px 10px 10px;
+    background-color: #fffcfc;
+    opacity: 0.9;
+    z-index: 1;
+    transition: all 0.4s ease;
+}
+.border-shape:hover {
+	opacity: 1;
+	margin: 30px 60px 20px 20px;
+}
+.border-rightside {
+    background-color: #fff;
+    opacity: 1;
+    position: absolute;
+    top: 40px !important;
+    right: -38px;
+    padding: 7px !important;
+    box-shadow: -8px -2px 44px -12px #9c9c9c;
+}
+.border-shape:hover .border-rightside {
+    box-shadow: -8px -2px 44px -12px #9c9c9c;
+}
+.fas {
+	font-size: 50px;
+	padding: 20px 7px;
+}
+.fas.fa-long-arrow-alt-right {
+	font-size: 40px;
+	color: #a5a5a5;
+	padding: 0;
+}
+
+
+/* Box 1 ======================================= */
+.bg {
+    right: 0;
+    top: 0;
+    width: 35%;
+    height: 213px;
+    margin-right: 40px;
+    position: absolute;
+    background-color: #50d8d5;
+	background-image: linear-gradient(to top right,#50d8d5,#80e2f1);
+    z-index: -1;
+}
+.border-line {
+	border: 2px solid #d0d0d0;
+	padding: 5px 5px 5px 15px;
+	margin-right: 40px;
+	transition: all 0.6s ease-in;
+}
+.mycoachlmss {
+    color: #50d8d5;
+}
+.fas.fa-graduation-cap {
+	color: #50d8d5;
+}
+
+
+/* Box 2 ======================================= */
+.bg2 {
+	position: absolute;
+	background-color: #f0a3a3;
+	background-image: linear-gradient(to top right,#dc4254,#ffa8b2);
+	z-index: -1;
+	right: 0;
+	top: 0;
+	width: 35%;
+	height: 213px;
+	margin-right: 40px;
+}
+.border-line1 {
+	border: 2px solid #d0d0d0;
+	padding: 5px 5px 5px 15px;
+	margin-right: 40px;
+	transition-duration: .6s,.6s;
+	transition-timing-function: ease,ease-in;
+	transition-delay: 0s,.6s;
+}
+.eLearninglab {
+	color: #f66;
+}
+.fas.fa-pen-nib {
+	color: #f66;
+}
+
+/* Box 3 ======================================= */
+
+.bg3 {
+	position: absolute;
+	background-color: #0cf;
+	background-image: linear-gradient(to top right,#0cf,#7fd9f7);
+	z-index: -1;
+	right: 0;
+	top: 0;
+	width: 35%;
+	height: 213px;
+	margin-right: 40px;
+}
+.border-line2 {
+	border: 2px solid #d0d0d0;
+	padding: 5px 5px 5px 15px;
+	margin-right: 40px;
+	transition-duration: .6s,.6s;
+	transition-timing-function: ease,ease-in;
+	transition-delay: 0s,.6s;
+}
+.Videoelearn {
+	color: #0cf;
+}
+.fas.fa-play-circle {
+	color: #0cf;
+}
+
+/* 
+==============================================================================
+==============================================================================
+>> Homepage Tab
+==============================================================================
+==============================================================================
+*/
+
+#homepage-tab .f-area {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap: 15px;
+}
+#homepage-tab .f-sec {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+#homepage-tab .fas.fa-angle-right {
+	color: #04C018;
+	font-size: 24px;
+	padding: 0;
+	line-height: 30px;
+}
+
+/* 
+==============================================================================
+==============================================================================
+>> Homepage Contact Form
+==============================================================================
+==============================================================================
+*/
+
+#contact_form p {
+	font-size: 18px;
+}
+#contact_form i {
+	font-weight: 700;
+	color: #04C018;
+	padding-right: 7px;
+}
+#contact_form .get-in-touch {
+	color: #04C018;
+}
+#contact_form .custom_form input,
+#contact_form .custom_form textarea {
+	background-color: #ffffff;
+	border-color: #2e3d49;
+	width: 100%;
+	color: #2e3d49;
+	font-size: 15px;
+	margin-bottom: 15px;
+
+	min-height: 34px;
+	padding: 5px 14px;
+
+	border: 1px solid #ccc;
+	vertical-align: middle;
+
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-box-flex: 1;
+	-o-box-flex: 1;
+	box-flex: 1;
+
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-ms-flex-grow: 1;
+	-o-flex-grow: 1;
+	flex-grow: 1;
+
+	-webkit-flex-positive: 1;
+	-moz-flex-positive: 1;
+	-ms-flex-positive: 1;
+	-o-flex-positive: 1;
+	flex-positive: 1;
+
+	flex-grow: 1;
+}
+#contact_form .custom_form input.submit {
+	background-color: #ffffff;
+	color: #04C018;
+	font-size: 19px;
+	font-weight: 500;
+	cursor: pointer;
+	text-align: center;
+	outline: none;
+	transition: all .30s ease-in-out;
+	border: 1px solid #04C018;
+	font-weight: 700;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+}
+#contact_form .custom_form input.submit:hover {
+	background-color: #04C018;
+	color: #ffffff;
+}
+
+/* 
+==============================================================================
+==============================================================================
+>> Learning Platform Lms Page
+==============================================================================
+==============================================================================
+*/
+#learning_platform_lms_main_part .short-bg {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 35%;
+	height: 90px;
+	background-color: #50d8d5;
+	background-image: linear-gradient(to top right,#50d8d5,#80e2f1);
+	z-index: -1;
+	margin-right: 40px;
+}
+#learning_platform_lms_main_part .inside-box {
+    position: relative;
+	background-color: #fffcfc;
+	opacity: 1;
+	padding: 15px;
+	margin: 30px 50px 10px 40px;
+	z-index: 1;
+	transition-duration: .4s,.4s;
+	transition-timing-function: ease,ease-out;
+	transition-delay: 0s,.4s;
+	-webkit-box-shadow: -8px -2px 44px -12px #9c9c9c;
+	-moz-box-shadow: -8px -2px 44px -12px #9c9c9c;
+	box-shadow: -8px -2px 44px -12px #9c9c9c;
+}
+#learning_platform_lms_main_part .inside-box:hover {
+	margin: 20px 40px 20px 50px;
+}
+#learning_platform_lms_main_part img.img-responsive {
+	display: inline-block;
+	width: 164;
+	height:103;
+	width: 40%;
+}
+#learning_platform_lms_main_part h4 {
+	margin-bottom: 5px;
+	color: #50d8d5;
+	font-size: 22px;
+	padding-top: 10px;
+}
+#learning_platform_lms_main_part p {
+	margin-bottom: 0px;
+	font-size: 15px;
+}
+#learning_platform_lms_main_part .list-g {
+	list-style: disc;
+	padding-inline-start: 40px;
+	margin-top: 5px;
+	line-height: 25px;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+
+
+/* 
+==============================================================================
+==============================================================================
+>> e_Learning Content Development Page
+==============================================================================
+==============================================================================
+*/
+#e_learning_content_development_main_part .short-bg {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 35%;
+	height: 90px;
+	background-color: #dc4254;
+	background-image: linear-gradient(to top right,#dc4254,#ffa8b2);
+	z-index: -1;
+	margin-right: 40px;
+}
+#e_learning_content_development_main_part .inside-box {
+    position: relative;
+	background-color: #fffcfc;
+	opacity: 1;
+	padding: 15px;
+	margin: 30px 50px 10px 40px;
+	z-index: 1;
+	transition-duration: .4s,.4s;
+	transition-timing-function: ease,ease-out;
+	transition-delay: 0s,.4s;
+	-webkit-box-shadow: -8px -2px 44px -12px #9c9c9c;
+	-moz-box-shadow: -8px -2px 44px -12px #9c9c9c;
+	box-shadow: -8px -2px 44px -12px #9c9c9c;
+}
+#e_learning_content_development_main_part .inside-box:hover {
+	margin: 20px 40px 20px 50px;
+}
+#e_learning_content_development_main_part img.img-responsive {
+	display: inline-block;
+	width: 164;
+	height:103;
+	width: 40%;
+}
+#e_learning_content_development_main_part h4 {
+	margin-bottom: 5px;
+	color: #dc4254;
+	font-size: 22px;
+	padding-top: 10px;
+}
+#e_learning_content_development_main_part p {
+	margin-bottom: 0px;
+	font-size: 15px;
+}
+#e_learning_content_development_main_part .list-g {
+	list-style: disc;
+	padding-inline-start: 40px;
+	margin-top: 5px;
+	line-height: 25px;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+
+
+/* 
+==============================================================================
+==============================================================================
+>> Video Learning Page
+==============================================================================
+==============================================================================
+*/
+#video_learning_main_part .short-bg {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 35%;
+	height: 90px;
+	background-color: #04C018;
+	background-image: linear-gradient(to top right,#00CCFF,#41d6fc);
+	z-index: -1;
+	margin-right: 40px;
+}
+#video_learning_main_part .inside-box {
+    position: relative;
+	background-color: #fffcfc;
+	opacity: 1;
+	padding: 15px;
+	margin: 30px 50px 10px 40px;
+	z-index: 1;
+	transition-duration: .4s,.4s;
+	transition-timing-function: ease,ease-out;
+	transition-delay: 0s,.4s;
+	-webkit-box-shadow: -8px -2px 44px -12px #9c9c9c;
+	-moz-box-shadow: -8px -2px 44px -12px #9c9c9c;
+	box-shadow: -8px -2px 44px -12px #9c9c9c;
+}
+#video_learning_main_part .inside-box:hover {
+	margin: 20px 40px 20px 50px;
+}
+#video_learning_main_part img.img-responsive {
+	display: inline-block;
+	width: 164;
+	height:103;
+	width: 40%;
+}
+#video_learning_main_part h4 {
+	margin-bottom: 5px;
+	color: #00CCFF;
+	font-size: 22px;
+	padding-top: 10px;
+}
+#video_learning_main_part p {
+	margin-bottom: 0px;
+	font-size: 15px;
+}
+#video_learning_main_part .list-g {
+	list-style: disc;
+	padding-inline-start: 40px;
+	margin-top: 5px;
+	line-height: 25px;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
